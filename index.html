@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <title>陳銘洋的首頁</title>
 
     <!-- Bootstrap -->
@@ -17,28 +18,86 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
+  <link rel="stylesheet"  href="animate.css">
 
-  <body background="40102.jpg" height="200" width="150">
 <section>
-  <h1> <p align="center">陳銘洋的首頁</h1>
-  <header>
-    <img src="move.gif" hieght="700" width="600" alt="" />
-  </header>
-  <article class="">
+  <div class="animated bounceInDown" >陳銘洋的首頁</div>
+
+<head>
+  <div class="col-md-3">
+
+    <br>
+    <img src="99K58PICtH6.jpg" >
+    <ul id='menus'>目錄
+    <li><span onclick='toggleMenu("m1")'>關於Assassin's Creed</span>
+      <ul id=m1>
+      <li><a href='http://www.ubisoft.com.tw/acs'>Ubisoft</a>
+
+      </ul>
+      <li><span onclick='toggleMenu("m2")'>關於個人</span>
+  <ul id=m2>
+  <li><a href='https://www.facebook.com/profile.php?id=100001391544722'>個人臉書</a>
+  </ul>
+    </ul>
+    <script type='text/javascript'>
+    function toggleMenu( id )
+    {
+      var o=document.getElementById( id );
+      o.style.display=
+        (o.style.display=='none') ? '' : 'none';
+    }
+    function hideMenu( id )
+    {
+      var o=document.getElementById( id ).getElementsByTagName('ul');
+      for( var i=0; i < o.length; i++)
+        o[i].style.display='none';
+    }
+    hideMenu('menus');
+    </script>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <P>@版權所有翻印必究</p>
+
+  </div>
+</head>
+<br>
+      <div class="col-md-9">
+
+    <img src="move.gif" hieght="500" width="400" >
+
     <h2> We are Assassins We work in the dark to serve the light......</h2>
 
 
 
-    <div class="embed-responsive embed-responsive-16by9">
-    <iframe width="854" height="480" src="https://www.youtube.com/embed/KX2nyTNtA94" frameborder="0" allowfullscreen></iframe>
-    </div>
 
+    <div class="video-container">
+      <iframe class="embed-responsive-item" width="1000" height="500"  src="https://www.youtube.com/embed/KX2nyTNtA94" frameborder="0" allowfullscreen=""></iframe>
+    </div>
+  </div>
+</div>
 
   </aside>
-  <a href="http://www.ubisoft.com.tw/acs">了解更多關於Assassin</a>
-  </p>
-  <a href="https://www.facebook.com/profile.php?id=100001391544722">個人臉書</a>
-  <footer>@版權所有by Sam</footer>
+
 </section>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
