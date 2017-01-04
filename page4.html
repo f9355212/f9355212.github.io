@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>太鼓達人</title>
+    <link rel="Shortcut Icon" type="image/x-icon" href="data:image/png;base64,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">
+
+
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  <link rel="stylesheet"  href="animate.css">
+</head>
+<body background="true.jpg">
+
+<section>
+  <h1><div align="center" class="animated bounceInDown">太鼓達人</div></h1>
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+
+
+        <!-- Single button -->
+
+
+        <h3 class="animated bounceInLeft"><b>目錄</b></h3>
+
+        <div class="list-group">
+        <div class="animated bounceInLeft">
+          <a class="list-group-item" href="C:\Users\Sam\Desktop\webdesign1\index.html" style="width:200px;text-align:center">
+            <i class="fa fa-home"><b>音樂遊戲介紹</b></i>
+
+
+
+          </a>
+<br>
+
+
+
+<span style="font-size:15px;"><b>遊戲歌曲</b></span>
+<a class="list-group-item" href="C:\Users\Sam\Desktop\webdesign1\page1.html" style="width:200px;text-align:center">
+  <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+  <b> Maimai</b>
+</a>
+
+<a class="list-group-item" href="C:\Users\Sam\Desktop\webdesign1\page2.html" style="width:200px;text-align:center">
+  <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+  <b>Jubeat</b>
+</a>
+
+<a class="list-group-item" href="C:\Users\Sam\Desktop\webdesign1\page3.html" style="width:200px;text-align:center">
+  <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+  <b>Groove Coaster</b>
+</a>
+
+<a class="list-group-item" href="#intro" style="width:200px;text-align:center">
+  <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+  <b>太鼓達人</b>
+</a>
+
+    </div>
+</div>
+</div>
+
+
+<br>
+      <div class="col-md-9">
+
+        <div id="intro">
+          <h2 class="animated fadeInRight"><b>遊戲介紹</b></h2>
+          <p>
+          太鼓之達人系列（日語：太鼓の達人，中國大陸譯作「太鼓之達人」）是一款於2001年起由南夢宮萬代（原南夢宮）發售的業務用街機音樂遊戲系列作品。遊戲玩法與科樂美的Bemani系列類似，玩家需要配合音樂，敲打機台上的日本傳統樂器「太鼓」的框體，從而打出正確的節奏。這個系列後來還在PlayStation 2、PlayStation Portable、PlayStation Vita、任天堂DS、Wii、任天堂3DS、Wii U、iOS上推出了家用版，一般使用手柄按鍵進行遊戲，但在iOS、PlayStation 2和Wii上也有專門推出的家庭用太鼓（Tatacon）操控設備，使玩家可以在家庭中感受到街機的遊玩效果。
+          <br>
+          <b><i>玩 法：</i></b>
+          <br>
+          <u>紅色（ドン、ド、コ/咚）</u>：敲打鼓面。在PSP2版本中的咚子模式中，敲打鼓邊也可。<br>
+          <u>藍色（カッ、カ/喀）</u>：敲打鼓邊。在PSP2版本中的咚子模式中，敲打鼓面也可。<br>
+          <u>黃色（連打/連打）</u>：當音符與小圓圈重疊時，敲打鼓面或鼓邊，敲打次數越多，得分越高。<br>
+          <u>大音符</u>：紅色（ドン(大)/咚(大)）、藍色（カッ(大)/喀(大)）、黃色（連打(大)/連打(大)）音符有大小之分，大音符的得分是小音符的2倍（黃色連打則是1.2倍）。在街機版和家用版,大音符都需要敲打兩邊鼓面或鼓邊。黃色大連打沒有這些限制。<br>
+          <u>手牽手音符</u>：在雙打時，紅色、藍色音符會有大的手牽手音符。2人需要同時準確無誤地敲打鼓面或鼓邊，才能得到與大音符相同的得分。<br>
+          <u>風船（ゲキ連打/氣球連打）</u>：初出現於家用版「初代」和街機版「AC3」，當音符與小圓圈重疊時，敲打鼓面直至氣球被吹爆，顯示數字歸零。每敲打一次就能得分。<br>
+          <u>芋（イモ連打/地瓜連打）/彩球（くすだま）</u>：初出現於家用版「五代目」和街機版「AC7」，在指定時間內敲打鼓面一定次數，直到地瓜全部吃完（顯示數字歸零）後和田どん或和田かつ放屁跳起來，此時再敲打鼓面一次，則會按時機獲得不同的額外得分。在「六代目」和「AC8」以後，取消了放屁跳起來的敲打設定，只需要在指定時間內吃完地瓜即可。在街機版「新AC」及家用版「3DS」、「Wii5」之後，改成了彩球，打法與原先的一樣。<br>
+          <u>鈴（すずどん）</u>：只出現於PSP版（不包括「PSP3」）。在指定時間內，儘快用類比墊（模擬搖桿）旋轉一定次數以上來獲得更高分數。<br>
+          <u>撥浪鼓（でんでん太鼓）</u>：只出現於DS版。在指定時間內，交換敲打鼓面和鼓邊一定次數來獲得更高分數。<br>
+          <u>道具音符（アイテム音符）</u>：出現於DS版、Wii版的「通訊對戰」。敲打此音符時，玩家會抽到一件道具，但道具的功能是隨機的，而且效果有好有壞。<br>
+          <u>炸彈音符（バクダン音符）</u>：出現於「NDS2」、「NDS3」的「道場やぶり」、「Wii2」、「PSP3」的BOSS女王戰及「3DS」。敲打此音符時，會使遊戲角色被炸彈炸中，損失大量HP，從而令取勝變得困難。<br>
+          <u>巨大音符</u>：出現於Wii版。按照敲打時機會分裂為小音符，散落到後續的譜面中。效果類似於譜面分歧。<br>          </p>      </div>
+
+        <br>
+        <div class="animated zoomIn embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/A8rFUjEjD_E" frameborder="0" allowfullscreen=""></iframe>
+        </div>
+        <br>
+        <p><b>作曲家與曲目</b></p>
+        <hr color="black"></hr>
+        <style type='text/css'>
+.row {font-size:16px;
+      list-style:inside decimal;
+     }
+.row  LI.first
+{float:left;
+
+}
+</style>
+<ol class=row>
+<li class=first>t+pazolite
+  <ul>
+  <li><a href='https://www.youtube.com/embed/euOn1K9rTkI'>Shiny Kung-fu Revival</a>
+  <li><a href='https://www.youtube.com/embed/GhmJjXcTOpY'>!!!カオスタイム!!!</a>
+  <li><a href='https://www.youtube.com/embed/of4WS0hNm-U'>Garakuta Doll Play</a>
+  <li><a href='https://www.youtube.com/embed/Gd_7zV_fp2I'>毒LOＣＡＮdy♡</a>
+  </ul>
+<li class=first>清水達也
+  <ul>
+  <li><a href='https://www.youtube.com/embed/BFyOcw025sE'>燎原ノ舞</a>
+  <li><a href='https://www.youtube.com/embed/4-yPTZ3jz6k'>旋風ノ舞 feat.彩音</a>
+  <li><a href='https://www.youtube.com/embed/dTOpu6Pk1Sw'>天妖ノ舞 feat.天子</a>
+  <li><a href='https://www.youtube.com/embed/UsEwcwB75QU'>Black Rose Apostle</a>
+  <li><a href='https://www.youtube.com/embed/bfDEZDsQy90'>White Rose Insanity </a>
+  <li><a href='https://www.youtube.com/embed/u62rBq4wQzU'>Red Rose Evangel feat.彩音</a>
+  <li><a href='https://www.youtube.com/embed/YZqlNiebNVw'>Blue Rose Ruin</a>
+  <li><a href='https://www.youtube.com/embed/wTPo__BY2rY'>Purple Rose Fusion</a>
+  <li><a href='https://www.youtube.com/embed/vW8yCktQLqk'>幽玄ノ乱</a>
+  <li><a href='https://www.youtube.com/embed/JtTl1HnDQt8'>双竜ノ乱</a>
+  <li><a href='https://www.youtube.com/embed/qEYo0JHmLhk'>Xa (Tatsh名義)</a>
+  <li><a href='https://www.youtube.com/embed/2qDomrnyHl4'>紫煌ノ乱</a>
+  <li><a href='https://www.youtube.com/embed/JAJLALO6SgY'>天照 (Tatsh a.k.a 世阿弥名義)</a>
+
+  </ul>
+</ol>
+
+<br>
+<br>
+
+
+    </div>
+  </div>
+</div>
+
+  </aside>
+
+</section>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  </body>
+</html>

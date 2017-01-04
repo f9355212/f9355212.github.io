@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+
+  <meta charset="utf-8">
+
+
+
+  <link rel="Shortcut Icon" type="image/x-icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAHL0lEQVR4Xu2ba1BTRxSAdzeXCIkmBMEqaBIhGEStjw5WK2CLI6Wd2hnFRwu+WqW1KupIH8OMtlQc+1IqWv3RUeur9TG2nem0HTvWtoSRFhEQxSfhkkSJERElQkqSe3c7NxQbMLlEi2OCN39zdu853z17zu7ZcyF4zH/wMbcfCAD4PCAuKqq/QxQ0FyKQAgiMgpihAsFjCKIYAAkNAPiZBeCgwWBo86a3Vw/QqFSLWEwKEEKyQDDam46Y4CsIwoW1RuNvnmQ8AtCo1bmEgA3cAJmsn3VxVtaZ0WPGYYpCrjmuX79BVq9aOZkPTIhEYtuxc8cpd5nCrVvDT5b8Gc83bk5GRunL016yu8tkZ68c1dR4Q8E3bt36fF1MbKxLxNHmAEXFRUH7d+95imEYMQaEgUQ0nTbRP3ad4x4AMSpVCgDwOCf4akbmybz8D+NEIlEnL3A6nabhscOUfAqFhimaTlVUhLnLbC4oOPHFlq2T+MZ9feAb3dMTJya7y6SmTDHRNM37vIozVedkMtkI93EMw1zNnD27tbyiUosxtoqweIS+Xn/VXeYeABqlspRAND5x8uTqXV/tGo4QEnVVOFAAcHqzLHvruUnJTrPFPIAAuJ021i3zCkCrUg1lAOSCByivOl0tl8tHenpbgQSA07+0tFSXOeeVZAzAzTqjYQAAAHfY1ckDYlSq6QDA70Kkktaz585JvblqoAFwOByG+GFaNWcPESEVTdMmjwA0yqFzCST7BiuV5j90RZG9BQDLsre1MZpQlz1YNKr2Sm01L4AhKmX970VFUb0IgFUbo2kP5IEI4Pkpqaba2pr7zgIdL5Bl2cAGkDp1qpGu0av40qenNCgA+JeA4AHCEhBigBAEAzoNPvZZQNgHPOBxuPfsAwQAD1YQETyg1+wEhSUgLIEHKooKMUCIAe0EAv84LARBIQgKQfBBrsYeWhbg7tziNLGD+YqUT0RENJ4oOxnuLlNYWHhi6+ebee8GDxw+XJwwPiHJfVxaaqpRf7mGtyhada76olQqjfOkU48HQe4hnDHbCrdMwvjuLdPdZ4cEh7Tt2runrKshrS0t59PS0sKuXa0f6EnRMaPHXj747WEFRVER7v9funChZGb6zDF/22ySruMghGDeawv/WrNmTYKne8yHkgXcXOs2wzC3jh87ZlqxPHty/kcbdOnp6UMoihqIEArxZCTGmLAsexVj7ExJTJI1NjXJK8+eMVEUJRGLxYO8eRXG2MEwjLm6qurK7Fmzk5YsX1aSnZ09UCQShVIU1ekWuuscD8UD3B9SWVlZPGv6jKTde/cVJSYn8vYNuI9LTEy0NDXcUJy/fKkP33Jy/89isZQlTpiYkLfuQ93c+fM7XaN7m0MA0NNl8a6kBQ8QloAQA/w9CPZsf0AAxgABQI92iASgBzRrYzRyl9490SHS6wF01yQVgADuLwYMiBx0TafTDaQoyqducn/fCNntdvMIbVx715svSyA8IsK8/9DBOk10NO/RtcMTHgWA9/M+0M1fuNCns0BZWcVvr85KT/EZwIDw/vX5n25SjBs7xqRQyD2esR/1YchXAAaDqeRyTU380qzFvvcJtgPYGAUAtClVg8uHqlSTqI5WcQ9HLn/0AIfDYTt/8WLZjYbGZAihdcmi133PAv8BaLeWEGiRy2Q1MllfgBAXF5hOGE5XnL6T+967L+Tlrzv69IQJfX092i7IyIy9dfNm6A+/HC3zdYzZfM26aMGCF7PefOP4jJkzuxyjKcAwdtx8x0q1tvw9EgDiao4khHAAum+UjFapMiGA+0PD+ls+2bjRY9XGk6J1dG3xx+vXJ63MySmKHzHS53pAbs7qBmtzs3zbjp0+1wOabt4qy31ndcKczAxdypSpPsUAjHHTW4sXuYomCJD4GqPxQocdnaK8Rq1+lhDwOxIhvP3LHS0QQp++FvF3AK22lrOrl2eP4pwBBlGher3e6hFAZGSkJDhI3AABkK56O0c3PH6kT4T9HcD33x4pOfrTT88QQEppo3GCuxff+8WIWl0ICFghDu5j+6ygwBQcLOk2C/gzAIu5viRv7dpnCCEAEjhPb6rbzwtAqVQqggiqAAioOQhLl684NUyrfZIrPnoLVPcLgCuMIoRg7ts5Ddbbtx9KDHA6WXPRH7/WHjl4KMllPATH9AZDmvvHEpw9Hnd60dHRwwCLj0IAhrqEIAT9+kobUZC4c/j/l4ijrU1is9lkwWJxi0QqtXUCBSHAgBDEqYAJwCwDW9vs2O60IxFErvK3XBFmwU47hSAikBJh7l15g806mD53WqwK7uVIJNK7a9ld3smyfWxWq4Iz3PWDoJggNI2m6eau83rd6qrV6lBE4FpC2CwEUT9f05SfyV0DgGwKDQ/fUl5e7vSkW7d7fbVaHSwiZBwkaDBBpP27OT//EUKcCABabzSe4W7H+dTtFoCf2/q/1RMA/G+EAT7BP/3FBcimDL0GAAAAAElFTkSuQmCC">
+  <link rel="stylesheet" type="text/css" href="animate.css">
+  <link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <script type="text/javascript" src="https://code.jquery.com/jquery.min.js"></script>
+  <script type="text/javascript" src="https://getbootstrap.com/dist/js/bootstrap.js"></script>
+  <link type="text/css" rel="stylesheet" href="https://getbootstrap.com/dist/css/bootstrap.css">
+
+
+  <script src='//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js'></script>
+<style>
+#goTop {
+position: fixed;
+bottom: 5px; /* 與下方的距離, 也可改為百分比, 即為距離螢幕下方的百分比 */
+right: 180px; /* 與右方的距離 */
+width: 40px; /* 按鈕原始寬度 */
+height: 40px; /* 按鈕原始高度 */
+opacity: 0.4; /* 按鈕原始透明度 */
+z-index: 10;
+cursor: pointer;
+transition: all .5s; /* 動畫效果 持續期間 */
+-webkit-transition: all .5s;
+-moz-transition: all .5s;
+}
+#goTop:hover { /* 滑鼠經過按鈕時 */
+opacity: 1; /* 透明度 */
+width: 50px; /* 按鈕寬度 */
+height: 50px; /* 按鈕高度 */
+}
+
+</style>
+
+
+
+
+  <title>  Music Game  </title>
+</head>
+<!-- Start your code here -->
+
+
+
+
+
+  <body background="true.jpg">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+
+
+        <!-- Single button -->
+
+
+        <h3 class="animated bounceInLeft"><b>目錄</b></h3>
+
+        <div class="list-group">
+        <div class="animated bounceInLeft">
+          <a class="list-group-item" href="#intro" style="width:200px;text-align:center">
+            <i class="fa fa-home"><b>音樂遊戲介紹</b></i>
+
+
+
+          </a>
+
+
+<span style="font-size:15px;"><b>介紹及玩法</b></span>
+
+          <!-- Single button -->
+  <div class="btn-group" >
+  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false" style="width:200px">
+<i class="fa fa-gamepad"></i>
+    <b>機台</b> <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" role="menu">
+    <li><a href="#intro1">Maimai</a></li>
+    <li><a href="#intro2">Jubeat</a></li>
+    <li><a href="#intro3">Groove Coaster</a></li>
+    <li><a href="#intro4">太鼓達人</a></li>
+  </ul>
+</div>
+
+
+
+
+
+<div class="btn-group">
+<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false" style="width:200px">
+<i class="fa fa-user"></i>
+  <b>作曲家</b> <span class="caret"></span>
+</button>
+<ul class="dropdown-menu" role="menu">
+  <li><a href="#comment1">清水達也</a></li>
+  <li><a href="#comment2">t+pazolite</a></li>
+  <li><a href="#comment3">削除（sakuzyo)</a></li>
+</ul>
+</div>
+
+<br>
+
+
+
+<span style="font-size:15px;"><b>遊戲詳介與歌曲</b></span>
+<a class="list-group-item" href="C:\Users\Sam\Desktop\webdesign1\page1.html"  style="width:200px;text-align:center">
+  <i class="fa fa-arrow-circle-right" aria-hidden="true" ></i>  <b>Maimai</b>
+</a>
+<a class="list-group-item" href="C:\Users\Sam\Desktop\webdesign1\page2.html" style="width:200px;text-align:center">
+  <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+  <b>Jubeat</b>
+</a>
+
+<a class="list-group-item" href="C:\Users\Sam\Desktop\webdesign1\page3.html" style="width:200px;text-align:center">
+  <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+  <b>Groove Coaster</b>
+</a>
+
+<a class="list-group-item" href="C:\Users\Sam\Desktop\webdesign1\page4.html" style="width:200px;text-align:center">
+  <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+  <b>太鼓達人</b>
+</a>
+
+    </div>
+</div>
+</div>
+<div class="col-md-8">
+
+
+
+
+
+
+
+        <div id="intro">
+          <h2 class="animated bounce" style="animation-duration: 2s;animation-iteration-count:3"><b>音樂遊戲介紹</b></h2>
+          <p>音樂遊戲（Music Game，簡稱MUG、音G）是電子遊戲類型的一種。玩家配合音樂與節奏做出動作（依畫面指示按鈕、踏舞步、操作模仿樂器的控制器等）來進行遊戲。通常玩家做出的動作與節奏吻合即可增加得分，相反情況下則會扣分或不計分，部分作品甚至會因為有類似血量限制的設定，倘若失誤過多，會強制結束遊戲（Game Over）。此外某些遊戲會要求一定的得分，若無法達成則會結束遊戲。</p>
+        <p></p>
+      </div>
+
+
+        <div class="animated zoomIn embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Q3ogb8qH6_A" frameborder="0" allowfullscreen=""></iframe>
+        </div>
+        <div class="animated bounceInUp" style="animation-duration: 3s">
+          <h2><b>機台介紹</b></h2>
+         <div id="intro1">
+
+          <span style="font-size:15px;"><b>《1》Maimai</b></span>
+          <p>
+          『maimai』（日語：maimai（マイマイ）），又稱洗衣機或舞萌，是一款由SEGA開發的街機音樂遊戲，對應智慧卡為Aime。在niconico動畫上，總共有超過26萬條與maimai相關的影片，數目與《偶像大師》和《東方Project》相約，而每月上傳影片數約1.5萬，相等於niconico動畫近一成的上傳數，而總上傳者數約1.2萬人，其中大部份均只是上傳maimai影片，而每月平均上傳人數達3000人，新上傳者則約500人。<br>
+          <b><i>玩 法：</i></b>
+          <br>
+          所有歌曲都能選擇五種不同的難度，分別為EASY、BASIC、ADVANCED、EXPERT、MASTER。可是，在遊玩MASTER事前需將該曲子的EXPERT達到RANK S（達成率97.0%）或以上才能解禁並遊玩該歌曲。
+          機台的螢幕呈圓形，玩家可以通過觸碰螢幕或按鍵來遊玩，遊玩時圖形會從螢幕中心向外移動，種類分別是環形的TAP、兩個環形同時出現，黃色的EACH、角條形的HOLD和星條形的SLIDE，分數達80%以上便可以通關，而遊玩時動作自然變得與跳舞一樣，機台亦附設攝錄功能，只要通過自設網站maimaiNET便可以將遊玩過程上載至niconico動畫。機台可以單人、兩人連線，最多能夠四人連線。遊玩時螢幕同時會播放歌手的音樂影片或原創影片。機台分為VS和SYNC兩個模式，在VS模式中不同玩家可以選擇同一首歌曲的不同難度來對戰，SYNC則只能選擇同一首歌曲的同一等級，雙方同步率最高為100%。最初能夠遊玩的歌曲只有19首，難度則分別為EASY、BASIC、ADVANCED和EXPERT。多數玩家為了改善遊戲體驗並取得更高的分數、減低受傷的風險，會戴上手套遊玩maimai
+          </p>
+
+          </div>
+          <div id="intro2">
+          <p>
+          <span style="font-size:15px;"><b>《2》Jubeat</b></span>
+          <p>
+           《jubeat》（日語：ユビート，英語：jubeat，中國大陸譯作「樂動魔方」）是科樂美數位娛樂於2008年7月24日起發售的一系列街機音樂遊戲，屬於Bemani系列的一員。
+           <br>
+           <b><i>玩 法：</i></b>
+           <br>
+           和pop'n music系列類似，本遊戲並不是模擬特定樂器，而是根據遊戲提示和著旋律按下指定按鍵的玩法。機台的顯示器是一個縱置的16:9寬液晶螢幕，由兩部分組成，上方五分之二的螢幕顯示遊戲的歌曲、分數等信息，下方五分之三的螢幕位於遊戲控制器——以4×4方式排列的十六個正方形透明按鍵之下。玩家需要通過下方螢幕的Marker（繪柄），在適當時機按下指定按鍵方能得分，每首TUNE（曲目）均有BASIC、ADVANCED、EXTREME三種不同難度的譜面。在日本、台灣、香港、澳門、新加坡、韓國、泰國、馬來西亞運營的機器對應KONAMI的e-AMUSEMENT網絡，持有e-AMUSEMENT PASS的玩家可以用卡片進行網際網路對戰，並保存遊戲成績等信息，還可以通過網絡獲得解鎖曲目。大陸地區可以用大陸版2代專用卡片進行解禁。遊戲同時支持店內區域網對戰。
+          </p>
+
+          </div>
+          <div id="intro3">
+          <p>
+          <span style="font-size:15px;"><b>《3》Groove Coaster</b></span>
+          <p>
+            《GROOVE COASTER》是TAITO推出的音樂遊戲，在部分海外地區被稱為「RHYTHMVADERS」。2011年推出iOS應用程式，2013年推出街機，2015年6月底推出 Android應用程式。
+開發者為「太空侵略者 無限基因」的石田禮輔，本作跟該作品同樣表現出線框模型的風格。以「只需一根手指就能輕鬆操作，享受如同過山車般驚心動魄的興奮感受」為概念，遊戲只需以手指點擊及滑動螢幕操作（與街機版相異）。
+2011年7月28日，TAITO推出了《GROOVE COASTER》（下稱「初代」）。遊戲於國內外均受到高評價，並得到不少獎項。2012年11月20日，推出了《GROOVE COASTER Zero》（下稱「ZERO」），並以Freemium方式增加了大量歌曲。2013年11月5日，推出了街機版《GROOVE COASTER》（下稱「AC版」），並以兩個名為「BOOSTER（ブースター）」的控制桿取代iOS的點擊觸控屏。AC版於2014年5月26日進行大型更新，改版成《GROOVE COASTER EX》（下稱「EX」）。
+          <br>
+          <b><i>玩 法：</i></b>
+          <br>
+          當圖像（アバター，AVATAR）與目標（ターゲット，TARGET）重疊時作出相應操作是基本的規則。
+根據點擊時機的準確度，會給出GREAT、COOL、GOOD或MISS的評價。準確的點擊能增加畫面上方的GROOVE槽，MISS評價則會減少。歌曲終結時，GROOVE槽達到一定的線就算是合格。
+連續點擊成功會增加CHAIN，iOS版當CHAIN連續時，每一個CHAIN都會令得分增加0.1倍（即1 CHAIN=1.1倍→2 CHAIN=1.2倍→3 CHAIN=1.3倍，如此類推），得到10 CHAIN以上時就會進入「FEVER」模式，期間點擊得到的CHAIN變成兩倍。當斷CHAIN時，FEVER模式就會終結。
+歌曲終結時會得到S至E六個評價的其中一個（EX增加了S+及S++），並會根據成績而累積「等級槽」。
+歌曲設定了名為DIFFICULTY（難度）的數值，並分為EASY（AC版為SIMPLE）、NORMAL及HARD。EX部分曲子設有最高難度EXTRA。先選曲然後選難度。
+iOS版的HARD及AC版的EXTRA一開始不能選取，前者需於NORMAL得到合格才能選取，後者需於SIMPLE、NORMAL及HARD全部得到S或以上才能選取。
+          </p>
+
+          </div>
+          <div id="intro4">
+          <p>
+          <span style="font-size:15px;"><b>《4》太鼓達人</b></span>
+          <p>
+            太鼓之達人系列（日語：太鼓の達人，中國大陸譯作「太鼓之達人」）是一款於2001年起由南夢宮萬代（原南夢宮）發售的業務用街機音樂遊戲系列作品。遊戲玩法與科樂美的Bemani系列類似，玩家需要配合音樂，敲打機台上的日本傳統樂器「太鼓」的框體，從而打出正確的節奏。這個系列後來還在PlayStation 2、PlayStation Portable、PlayStation Vita、任天堂DS、Wii、任天堂3DS、Wii U、iOS上推出了家用版，一般使用手柄按鍵進行遊戲，但在iOS、PlayStation 2和Wii上也有專門推出的家庭用太鼓（Tatacon）操控設備，使玩家可以在家庭中感受到街機的遊玩效果。
+          <br>
+          <b><i>玩 法：</i></b>
+          <br>
+          <u>紅色（ドン、ド、コ/咚）</u>：敲打鼓面。在PSP2版本中的咚子模式中，敲打鼓邊也可。<br>
+<u>藍色（カッ、カ/喀）</u>：敲打鼓邊。在PSP2版本中的咚子模式中，敲打鼓面也可。<br>
+<u>黃色（連打/連打）</u>：當音符與小圓圈重疊時，敲打鼓面或鼓邊，敲打次數越多，得分越高。<br>
+<u>大音符</u>：紅色（ドン(大)/咚(大)）、藍色（カッ(大)/喀(大)）、黃色（連打(大)/連打(大)）音符有大小之分，大音符的得分是小音符的2倍（黃色連打則是1.2倍）。在街機版和家用版,大音符都需要敲打兩邊鼓面或鼓邊。黃色大連打沒有這些限制。<br>
+<u>手牽手音符</u>：在雙打時，紅色、藍色音符會有大的手牽手音符。2人需要同時準確無誤地敲打鼓面或鼓邊，才能得到與大音符相同的得分。<br>
+<u>風船（ゲキ連打/氣球連打）</u>：初出現於家用版「初代」和街機版「AC3」，當音符與小圓圈重疊時，敲打鼓面直至氣球被吹爆，顯示數字歸零。每敲打一次就能得分。<br>
+<u>芋（イモ連打/地瓜連打）/彩球（くすだま）</u>：初出現於家用版「五代目」和街機版「AC7」，在指定時間內敲打鼓面一定次數，直到地瓜全部吃完（顯示數字歸零）後和田どん或和田かつ放屁跳起來，此時再敲打鼓面一次，則會按時機獲得不同的額外得分。在「六代目」和「AC8」以後，取消了放屁跳起來的敲打設定，只需要在指定時間內吃完地瓜即可。在街機版「新AC」及家用版「3DS」、「Wii5」之後，改成了彩球，打法與原先的一樣。<br>
+<u>鈴（すずどん）</u>：只出現於PSP版（不包括「PSP3」）。在指定時間內，儘快用類比墊（模擬搖桿）旋轉一定次數以上來獲得更高分數。<br>
+<u>撥浪鼓（でんでん太鼓）</u>：只出現於DS版。在指定時間內，交換敲打鼓面和鼓邊一定次數來獲得更高分數。<br>
+<u>道具音符（アイテム音符）</u>：出現於DS版、Wii版的「通訊對戰」。敲打此音符時，玩家會抽到一件道具，但道具的功能是隨機的，而且效果有好有壞。<br>
+<u>炸彈音符（バクダン音符）</u>：出現於「NDS2」、「NDS3」的「道場やぶり」、「Wii2」、「PSP3」的BOSS女王戰及「3DS」。敲打此音符時，會使遊戲角色被炸彈炸中，損失大量HP，從而令取勝變得困難。<br>
+<u>巨大音符</u>：出現於Wii版。按照敲打時機會分裂為小音符，散落到後續的譜面中。效果類似於譜面分歧。<br>
+          </p>
+        </div>
+
+        <h2><b>作曲家介紹</b></h2>
+
+        <div id="comment1">
+        <p>
+        <span style="font-size:15px;"><b>《1》 清水達也</b></span>
+        <p>
+          清水達也（日語：清水 達也（しみず たつや），1981年3月1日－）是日本的音樂家、作曲家、編曲家。千葉縣出身。主要以Tatsh（タッシュ）和世阿彌（ぜあみ）的名義活動。血型為A型。喜歡的飲料為可爾必思。
+          <br>
+          18歲開始開始了音樂家的活動，有為TV節目與廣告製作過音樂，也有提供樂曲給Ya-Ya-yah，之後加入了Konami公司給音樂遊戲beatmania IIDX 10th style提供樂曲。在beatmania IIDX 13 DistorteD版本之前，除了提供樂曲之外，還擔任了beatmania IIDX系列的音樂總監，之後也有在其他BEMANI系列提供樂曲。2007年從Konami離開，現在是屬於自由作曲家的狀態。不過之前2010年beatmania IIDX 18 Resort Anthem稼動之後，有再次為BEMANI系列提供樂曲。另一方面，他也很熱忠於同人音樂方面的活動，從2008年的ComicMarket74開始就不斷以「TatshMusicCircle」社團的名稱出展。2011年10月27日，從beatnation Records發布了第一張個人專輯「MATERIAL」。
+在目前，自己以「世阿彌」的名義在BandaiNamcoGames的太鼓達人與TAITO的MUSIC GUNGUN!、GROOVE COASTER活耀著，曾有傳聞就是Tatsh本人，當初雖然保持否定態度，但是在2014年6月14日開催的「太鼓達人．日本第一決定戰2013 全國大會」中，Tatsh本人登場，並且公開表示自己就是以「世阿彌」的身分登場的。
+
+        </p>
+       </div>
+       <div id="comment2">
+        <p>
+        <span style="font-size:15px;"><b>《2》 t+pazolite</b></span>
+        <p>
+          t+pazolite（トパゾライト）（本名：浜田知幸(はまだ ともゆき)、1985年10月11日 - ），是在日本的的遊戲音樂的的作曲家，2004年開始活動，製作過東方project系列的同人樂曲，社團為C.H.S（Cutie and Headshaking Sounds)，現在也有在為各音樂遊戲提供樂曲，也有在各音樂活動上進行演奏。主要擅長Hardcore techno、Speedcore類型的歌曲。
+          <br>
+          個人看法:
+          曲風變化多端，節奏爽快，常常以魔王曲之姿出線在各大遊戲裡。從輕快優閒到充滿著渾沌黑暗，不同歌曲都能呈現不同的心情。是個人最喜歡的作曲家。
+        </p>
+       </div>
+       <div id="comment3">
+        <p>
+        <span style="font-size:15px;"><b>《3》削除（sakuzyo）</b></span>
+        <p>
+          削除（sakuzyo）編輯日本人，BMS作曲家，有向SOUND VOLTEX提供樂曲，1994年出生，今年19歲。他從14歲開始作曲，17歲便憑一人三曲自成一隊奪得BOF2011團隊冠軍（其中Laplace獲單曲總分第13名）
+        </p>
+
+
+<!-- Go Top 按鈕+動畫 end, Designed by WFU BLOG -->
+
+        </div>
+
+      </div>
+
+    </div>
+      </div>
+
+  </div>
+
+  <div class="col-md-1">
+    <img id="goTop" src="http://www.free-icons-download.net/images/up--small-arrow-icon-64994.png" title="Back to Top"/>
+  <script>
+  $.extend($.easing, {
+  easeOutExpo: function (x, t, b, c, d) {
+  return (t==d) ? b+c : c * (-Math.pow(2, -10 * t/d) + 1) + b;
+  }
+  });
+  $("#goTop").click(function(){
+  $("html, body").animate({scrollTop: 0}, 1000, "easeOutExpo");
+  });
+  </script>
+</div>
+
+
+</body>

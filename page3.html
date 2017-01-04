@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Groove Coaster</title>
+    <link rel="Shortcut Icon" type="image/x-icon" href="data:image/png;base64,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">
+
+
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  <link rel="stylesheet"  href="animate.css">
+</head>
+<body background="true.jpg">
+
+<section>
+  <h1><div align="center" class="animated bounceInDown">Groove Coaster</div></h1>
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+
+
+        <!-- Single button -->
+
+
+        <h3 class="animated bounceInLeft"><b>目錄</b></h3>
+
+        <div class="list-group">
+        <div class="animated bounceInLeft">
+          <a class="list-group-item" href="C:\Users\Sam\Desktop\webdesign1\index.html" style="width:200px;text-align:center">
+            <i class="fa fa-home"><b>音樂遊戲介紹</b></i>
+
+
+
+          </a>
+<br>
+
+
+
+<span style="font-size:15px;"><b>遊戲歌曲</b></span>
+<a class="list-group-item" href="C:\Users\Sam\Desktop\webdesign1\page1.html" style="width:200px;text-align:center">
+  <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+  <b> Maimai</b>
+</a>
+
+<a class="list-group-item" href="C:\Users\Sam\Desktop\webdesign1\page2.html" style="width:200px;text-align:center">
+  <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+  <b>Jubeat</b>
+</a>
+
+<a class="list-group-item" href="#intro" style="width:200px;text-align:center">
+  <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+  <b>Groove Coaster</b>
+</a>
+
+<a class="list-group-item" href="C:\Users\Sam\Desktop\webdesign1\page4.html" style="width:200px;text-align:center">
+  <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+  <b>太鼓達人</b>
+</a>
+
+    </div>
+</div>
+</div>
+
+
+<br>
+      <div class="col-md-9">
+
+        <div id="intro">
+          <h2 class="animated fadeInRight"><b>遊戲介紹</b></h2>
+          <p>
+            《GROOVE COASTER》是TAITO推出的音樂遊戲，在部分海外地區被稱為「RHYTHMVADERS」。2011年推出iOS應用程式，2013年推出街機，2015年6月底推出 Android應用程式。
+開發者為「太空侵略者 無限基因」的石田禮輔，本作跟該作品同樣表現出線框模型的風格。以「只需一根手指就能輕鬆操作，享受如同過山車般驚心動魄的興奮感受」為概念，遊戲只需以手指點擊及滑動螢幕操作（與街機版相異）。
+2011年7月28日，TAITO推出了《GROOVE COASTER》（下稱「初代」）。遊戲於國內外均受到高評價，並得到不少獎項。2012年11月20日，推出了《GROOVE COASTER Zero》（下稱「ZERO」），並以Freemium方式增加了大量歌曲。2013年11月5日，推出了街機版《GROOVE COASTER》（下稱「AC版」），並以兩個名為「BOOSTER（ブースター）」的控制桿取代iOS的點擊觸控屏。AC版於2014年5月26日進行大型更新，改版成《GROOVE COASTER EX》（下稱「EX」）。
+          <br>
+          <b><i>玩 法：</i></b>
+          <br>
+          當圖像（アバター，AVATAR）與目標（ターゲット，TARGET）重疊時作出相應操作是基本的規則。
+          根據點擊時機的準確度，會給出GREAT、COOL、GOOD或MISS的評價。準確的點擊能增加畫面上方的GROOVE槽，MISS評價則會減少。歌曲終結時，GROOVE槽達到一定的線就算是合格。
+          連續點擊成功會增加CHAIN，iOS版當CHAIN連續時，每一個CHAIN都會令得分增加0.1倍（即1 CHAIN=1.1倍→2 CHAIN=1.2倍→3 CHAIN=1.3倍，如此類推），得到10 CHAIN以上時就會進入「FEVER」模式，期間點擊得到的CHAIN變成兩倍。當斷CHAIN時，FEVER模式就會終結。
+          歌曲終結時會得到S至E六個評價的其中一個（EX增加了S+及S++），並會根據成績而累積「等級槽」。
+          歌曲設定了名為DIFFICULTY（難度）的數值，並分為EASY（AC版為SIMPLE）、NORMAL及HARD。EX部分曲子設有最高難度EXTRA。先選曲然後選難度。
+          iOS版的HARD及AC版的EXTRA一開始不能選取，前者需於NORMAL得到合格才能選取，後者需於SIMPLE、NORMAL及HARD全部得到S或以上才能選取。          </p>      </div>
+
+        <br>
+        <div class="animated zoomIn embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/M8hR3OZoUuw" frameborder="0" allowfullscreen=""></iframe>
+        </div>
+        <br>
+        <p><b>作曲家與曲目</b></p>
+        <hr color="black"></hr>
+        <style type='text/css'>
+.row {font-size:16px;
+      list-style:inside decimal;
+     }
+.row  LI.first
+{float:left;
+
+}
+</style>
+<ol class=row>
+<li class=first>t+pazolite
+  <ul>
+  <li><a href='https://www.youtube.com/embed/cjuAhaC4ihk'>Satisfiction</a>
+  <li><a href='https://www.youtube.com/embed/vNk055TbqcE'>OMAKENO Stroke</a>
+  <li><a href='https://www.youtube.com/embed/iMSwmMVCikw'>Marry me, Nightmere</a>
+  <li><a href='https://www.youtube.com/embed/NtjtipqRLag'>Garakuta Doll Play</a>
+  <li><a href='https://www.youtube.com/embed/z2mnrLt5UB0'>QLWA</a>
+  </ul>
+<li class=first>清水達也
+  <ul>
+  <li><a href='https://www.youtube.com/embed/sMKjia_DBfI'>グルーヴ・リボルバー</a>
+  <li><a href='https://www.youtube.com/embed/CnY5cp2GDrQ'>聖者の鼓動</a>
+  <li><a href='https://www.youtube.com/embed/P53B9tpNdjU'>聖者の息吹 (世阿弥 vs Tatsh名義)</a>
+  <li><a href='https://www.youtube.com/embed/fWXqRNlDckU'>FOUR SEASONS OF LONELINESS verβ feat.サリヤ人</a>
+  <li><a href='https://www.youtube.com/embed/JXQRuXZABYw'>Weave Detonator</a>
+  <li><a href='https://www.youtube.com/embed/Q0LR5dG8-qg'>STARLIGHT TWILIGHT</a>
+  <li><a href='https://www.youtube.com/embed/XTg_90t0gPM'>CYBER Sparks</a>
+  <li><a href='https://www.youtube.com/embed/Ykf_giZeqDo'>零式＜Type-ZERO＞</a>
+  <li><a href='https://www.youtube.com/embed/sjcebZJJpLc'>Cruel Moon NuMIX</a>
+  <li><a href='https://www.youtube.com/embed/uFwMvQqtYBY'>メシアの邂逅</a>
+  <li><a href='https://www.youtube.com/embed/1pMKSh3QmJ4'>FREE CONNECTION 2</a>
+  <li><a href='https://www.youtube.com/embed/Hu9G1BchaMc'>BlazeConductor</a>
+  <li><a href='https://www.youtube.com/embed/SOOma5E1zU8'>FullMoon</a>
+  <li><a href='https://www.youtube.com/embed/h0cij19BdQs'>FEEL MY BEAT!</a>
+
+  </ul>
+</ol>
+
+<br>
+<br>
+
+
+    </div>
+  </div>
+</div>
+
+  </aside>
+
+</section>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  </body>
+</html>
