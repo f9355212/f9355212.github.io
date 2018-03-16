@@ -186,5 +186,15 @@ html
 
 #bg p
 {
-	font-size: 0.3vw;
+	font-size: 0.5vw;
+	text-align: right;
+	padding-right: 9vw;
+	display: block;
+}
+
+#login
+{
+	text-align: right;
+	padding-right: 4vw;
+	display: block;
 }
