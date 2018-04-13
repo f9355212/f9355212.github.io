@@ -1,4 +1,9 @@
 /* CSS Document */
+@media screen and (min-width:400px) and (max-width:700px){
+	p{
+		font-size: 10px;
+	}
+}
 
 body
 {
@@ -43,6 +48,16 @@ html
 	text-align: left;
 	font-family: "微軟正黑體";
 	margin: 0;
+	padding-right: 70vw;
+	font-size: 2vw;
+	transform: translateX(-260px);
+	transition: 2s;
+	transition-delay: 60s;
+}
+.pic:hover h2
+{
+	transform: translateX(20px);
+	transition: 2s;
 	font-size: 2vw;
 }
 .about p
@@ -51,9 +66,20 @@ html
 	top: 15vh;
 	right: 1vw;
 	margin: 0;
+	padding-left: 70vw;
 	font-size: 1.5vw;
 	font-family: "微軟正黑體";
 	text-align: right;
+	transform: translateX(420px);
+	transition: 2s;
+	transition-delay: 60s;
+}
+
+.pic:hover p
+{
+	transform: translateX(5px);
+	transition: 2s;
+	font-size: 1.5vw;
 }
 
 .pic2
@@ -80,7 +106,7 @@ html
 	margin: 0;
 	padding: 4vh 0 0 15vw;
 	font-family: "微軟正黑體";
-	font-size: 1vw;
+	font-size: 15px;
 }
 .fb
 {
@@ -152,9 +178,10 @@ html
 {
 	transition: 0.5s;
 	transform: scale(1.2,1.2);
-	font-size: 2vw;
+	font-size: 15px;
 }
 
+/*會員註冊*/
 #bg
 {
 	background-image: url(1920x1080-data_out_69_69044991-farm-wallpapers.jpg);
